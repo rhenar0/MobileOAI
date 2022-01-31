@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="fr.imercy.mobileoai" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>MobileOAI</name>
+  <description>&#xD;
+        Application permettant d'utiliser OpenAI.&#xD;
+    </description>
+  <author email="contact@imercy.fr" href="https://imercy.fr/">&#xD;
+        iMercy - Rhenar&#xD;
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+    <icon src="www/img/logo_xhdpi.png" density="xhdpi"/>
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+    <icon src="www/img/logo_xhdpi.png" density="xhdpi"/>
+  </platform>
+</widget>
